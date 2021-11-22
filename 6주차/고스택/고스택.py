@@ -12,25 +12,7 @@ while cmd != "QUIT":
         break
     elif cmd[:3] == "NUM":
         program[idx].append(cmd)
-    elif cmd == "POP":
-        program[idx].append(cmd)
-    elif cmd == "INV":
-        program[idx].append(cmd)
-    elif cmd == "DUP":
-        program[idx].append(cmd)
-    elif cmd == "SWP":
-        program[idx].append(cmd)
-    elif cmd == "ADD":
-        program[idx].append(cmd)
-    elif cmd == "SUB":
-        program[idx].append(cmd)
-    elif cmd == "MUL":
-        program[idx].append(cmd)
-    elif cmd == "DIV":
-        program[idx].append(cmd)
-    elif cmd == "MOD":
-        program[idx].append(cmd)
-    elif cmd == "END":
+    elif cmd == "POP" or cmd == "INV" or cmd == "DUP" or cmd == "SWP" or cmd == "ADD" or cmd == "SUB" or cmd == "MUL" or cmd == "DIV" or cmd == "MOD" or cmd == "END":
         program[idx].append(cmd)
     elif cmd == "":
         program.append([])
